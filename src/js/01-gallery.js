@@ -10,6 +10,8 @@ const galleryArray = galleryItems.map(
 );
 
 gallery.innerHTML = galleryArray.join("");
+
+
 const lightboxmetods = new SimpleLightbox('.gallery a', {
     captions: true,
     captionType: 'attr',
